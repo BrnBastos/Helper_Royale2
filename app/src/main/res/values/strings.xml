@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Helper_Royale</string>
+    <string name="editText_TelaLogin_TagClash">Insira a Sua Tag do Seu Perfil Aqui!</string>
+    <string name="editText_TelaLogin_SenhaClash">Insira a Sua Senha do Cadastro Aqui!</string>
+    <string name="Button_TelaLogin_IrParaCadastro">Ainda não possui cadastro no app? Clique Aqui!</string>
+    <string name="Button_TelaLogin_IrParaTelaPrincipal">Entrar</string>
+    <string name="Label_TelaCadastro_TextoRealize">Realize o seu cadastro!</string>
+    <string name="TextView_TelaCadastro_TextoNome"></string>
+    <string name="editText_TelaCadastro_InsiraNome">insira um nome:</string>
+    <string name="Label_TelaCadastro_TagClash">Tag do clash royale</string>
+    <string name="editText_TelaCadastro_TagClash">insira uma tag</string>
+    <string name="TextView_TelaCadastro_Senha">Senha:</string>
+    <string name="editText_TelaCadastro_inserirSenha"></string>
+    <string name="TextView_TelaCadastro_ConfirmarSenha">Confirmar senha</string>
+    <string name="editText_TelaCadastro_inserirConfirmarSenha"></string>
+    <string name="Button_TelaCadastro_Cadastrar">Cadastrar</string>
+    <string name="TextView_TelaCadastro_NomeUsu">Username</string>
+    <string name="TextView_TelaPerfil_MaxTrofeu">Máximo de troféus:</string>
+    <string name="TextView_TelaPerfil_ClaPresente">Clã Presente:</string>
+    <string name="TextView_TelaPerfil_TrofeusAtuais">Troféus atuais:</string>
+    <string name="TextView_TelaPerfil_DataClash">Entrou no Clash Royale em:</string>
+    <string name="TextView_TelaPerfil_ArenaAtual">Arena atual:</string>
+    <string name="TextView_TelaMenuPrin_TituloMenu">Bem-vindo ao menu principal!</string>
+    <string name="Button_TelaMenuPrin_IrparaListaBaus">Lista dos próximos baús</string>
+    <string name="Button_TelaMenuPrin_IrparaCla">Clã</string>
+    <string name="Button_TelaMenuPrin_IrparaPerfil">Minha Conta</string>
+    <string name="Button_TelaMenuPrinSlide_LogOut">Log Out</string>
+    <string name="TextView_TelaListaBaus_QtdPartidas">Quantidade de partidas até o próximo baú:</string>
+    <string name="TextView_TelaListaBaus_Bau">Baú:</string>
 </resources>

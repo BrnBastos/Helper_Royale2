@@ -7,4 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="Tela_de_fundo_Clash">#477cd3</color>
+    <color name="Cor_textbox_cadastro">#ace9ff</color>
+    <color name="Cor_buttons_telaprincipal_principais">#2c4f86</color>
+    <color name="Cor_buttons_telaprincipal_separalogout">#e8e9f3</color>
+    <color name="Cor_button_telaprincipal_fechaslide">#ffd861</color>
+    
 </resources>

@@ -4,15 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="@color/Tela_de_fundo_Clash"
+    tools:context=".MainActivity" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/imageView_TelaLogin_IconeClashRoyale"
+        android:layout_width="235dp"
+        android:layout_height="172dp"
+        app:srcCompat="@drawable/Icone_tituloclash"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="39dp" />
 
+    <EditText
+        android:id="@+id/editText_TelaLogin_TagClash"
+        android:layout_width="264dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="307dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

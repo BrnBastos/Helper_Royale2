@@ -1,14 +1,14 @@
 <resources>
     <string name="app_name">Helper_Royale</string>
-    <string name="editText_TelaLogin_TagClash">Insira a Sua Tag do Seu Perfil Aqui!</string>
-    <string name="editText_TelaLogin_SenhaClash">Insira a Sua Senha do Cadastro Aqui!</string>
+    <string name="editText_TelaLogin_TagClash">Insira a Sua Tag do Clash Aqui!</string>
+    <string name="editText_TelaLogin_SenhaClash">Insira a Sua Senha do App Aqui!</string>
     <string name="Button_TelaLogin_IrParaCadastro">Ainda não possui cadastro no app? Clique Aqui!</string>
     <string name="Button_TelaLogin_IrParaTelaPrincipal">Entrar</string>
     <string name="Label_TelaCadastro_TextoRealize">Realize o seu cadastro!</string>
     <string name="TextView_TelaCadastro_TextoNome"></string>
     <string name="editText_TelaCadastro_InsiraNome">insira um nome:</string>
     <string name="Label_TelaCadastro_TagClash">Tag do clash royale</string>
-    <string name="editText_TelaCadastro_TagClash">insira uma tag</string>
+    <string name="editText_TelaCadastro_TagClash">insira a tag de sua conta</string>
     <string name="TextView_TelaCadastro_Senha">Senha:</string>
     <string name="editText_TelaCadastro_inserirSenha"></string>
     <string name="TextView_TelaCadastro_ConfirmarSenha">Confirmar senha</string>

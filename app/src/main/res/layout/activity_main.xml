@@ -7,21 +7,68 @@
     android:background="@color/Tela_de_fundo_Clash"
     tools:context=".MainActivity" >
 
-    <ImageView
-        android:id="@+id/imageView_TelaLogin_IconeClashRoyale"
-        android:layout_width="235dp"
-        android:layout_height="172dp"
-        app:srcCompat="@drawable/Icone_tituloclash"
-        tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="39dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
-    <EditText
-        android:id="@+id/editText_TelaLogin_TagClash"
-        android:layout_width="264dp"
-        android:layout_height="41dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="307dp" />
+        <ImageView
+            android:id="@+id/imageView_TelaLogin_IconeClashRoyale"
+            android:layout_width="235dp"
+            android:layout_height="172dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/icone_logoclash"
+            tools:layout_editor_absoluteX="88dp"
+            tools:layout_editor_absoluteY="39dp" />
+
+        <EditText
+            android:id="@+id/editText_TelaLogin_SenhaClash"
+            android:layout_width="264dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="66dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/editText_TelaLogin_SenhaClash"
+            tools:layout_editor_absoluteX="73dp"
+            tools:layout_editor_absoluteY="423dp" />
+
+        <EditText
+            android:id="@+id/editText_TelaLogin_TagClash"
+            android:layout_width="264dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="66dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/editText_TelaLogin_TagClash"
+            tools:layout_editor_absoluteX="73dp"
+            tools:layout_editor_absoluteY="307dp" />
+
+        <Button
+            android:id="@+id/button_TelaLogin_IrParaCadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@color/Tela_de_fundo_Clash"
+            android:text="@string/Button_TelaLogin_IrParaCadastro"
+            tools:layout_editor_absoluteX="156dp"
+            tools:layout_editor_absoluteY="503dp" />
+
+        <Button
+            android:id="@+id/button_TelaLogin_IrParaMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="@color/white"
+            android:text="@string/Button_TelaLogin_IrParaTelaPrincipal"
+            android:textColor="@color/black" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

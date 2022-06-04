@@ -27,4 +27,5 @@
     <string name="Button_TelaMenuPrinSlide_LogOut">Log Out</string>
     <string name="TextView_TelaListaBaus_QtdPartidas">Quantidade de partidas até o próximo baú:</string>
     <string name="TextView_TelaListaBaus_Bau">Baú:</string>
+    <string name="TextView_TelaCadastro_TemplateUsu">Usuário</string>
 </resources>

@@ -151,7 +151,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.451" />
 
-    <de.hdodenhof.circleimageview.CircleImageView
+    <ImageView
         android:id="@+id/imageView_TelaCadastro_TemplateUsu"
         android:layout_width="164dp"
         android:layout_height="119dp"
